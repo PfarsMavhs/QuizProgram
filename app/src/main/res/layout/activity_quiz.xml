@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribe.quizprogram.Quiz">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Q1"
+        android:text="lufuno"
+        />
+
+    <RadioGroup
+        android:layout_below="@+id/Q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/A1"
+            android:onClick="question1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/A2"
+            android:onClick="question1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/A3"
+            android:text=""
+            android:onClick="question1"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_below="@+id/grp1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Q2"
+        android:text=""
+        />
+
+    <RadioGroup
+        android:layout_below="@+id/Q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp2">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/B1"
+            android:onClick="question2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/B2"
+            android:onClick="question2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/B3"
+            android:text=""
+            android:onClick="question2"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_below="@+id/grp2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Q3"
+        />
+
+    <RadioGroup
+        android:layout_below="@+id/Q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp3">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/C1"
+            android:onClick="question2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/C2"
+            android:onClick="question2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/C3"
+            android:text=""
+            android:onClick="question2"
+            />
+    </RadioGroup>
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/submitA"
+        android:onClick="submit"
+        android:text="Submit"
+
+        />
+
+    <TextView
+        android:layout_below="@+id/grp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/answr"/>
+
+</RelativeLayout>
