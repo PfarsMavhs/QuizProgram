@@ -10,7 +10,9 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/Q1"
-        android:text="lufuno"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
         />
 
     <RadioGroup
@@ -21,20 +23,17 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/A1"
             android:onClick="question1"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/A2"
             android:onClick="question1"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/A3"
-            android:text=""
             android:onClick="question1"
             />
     </RadioGroup>
@@ -43,8 +42,9 @@
         android:layout_below="@+id/grp1"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
         android:id="@+id/Q2"
-        android:text=""
+        android:textStyle="bold"
         />
 
     <RadioGroup
@@ -55,30 +55,29 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/B1"
             android:onClick="question2"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/B2"
             android:onClick="question2"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/B3"
-            android:text=""
             android:onClick="question2"
             />
     </RadioGroup>
 
 
-    <TextView
+       <TextView
         android:layout_below="@+id/grp2"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/Q3"
+        android:layout_marginTop="20dp"
+           android:textStyle="bold"
         />
 
     <RadioGroup
@@ -89,21 +88,18 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/C1"
-            android:onClick="question2"/>
+            android:onClick="question3"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:id="@+id/C2"
-            android:onClick="question2"/>
+            android:onClick="question3"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/C3"
-            android:text=""
-            android:onClick="question2"
+            android:onClick="question3"
             />
     </RadioGroup>
 
@@ -125,7 +121,7 @@
         />
 
     <TextView
-        android:layout_below="@+id/grp2"
+        android:layout_below="@+id/grp3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 

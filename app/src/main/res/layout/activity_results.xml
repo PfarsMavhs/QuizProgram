@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context="com.example.codetribe.quizprogram.Results">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/plk"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/plk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="pfariso"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/plk1"
+                android:layout_width="81dp"
+                android:layout_height="82dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/no"
+                android:text="pfariso"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/plk12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="pfariso"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/plk11"
+                android:layout_width="81dp"
+                android:layout_height="82dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/no"
+                android:text="pfariso"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

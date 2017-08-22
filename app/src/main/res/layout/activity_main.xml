@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/quiz_background"
     tools:context="com.example.codetribe.quizprogram.MainActivity">
 
-
-    <RelativeLayout
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-
-
-
         <TextView
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Welcome To My Quiz"
@@ -27,36 +19,37 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="30dp"
-            android:id="@+id/text1"
-            />
+            android:id="@+id/text1" />
+
         <Button
             android:layout_below="@+id/text1"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginTop="40dp"
             android:text="Car"
+            android:textStyle="bold"
             android:id="@+id/cars"
             android:onClick="car"/>
+
         <Button
             android:layout_below="@+id/cars"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="Mathematics"
+            android:layout_marginTop="20dp"
             android:id="@+id/Maths"
             android:onClick="math"/>
+
         <Button
             android:layout_below="@+id/Maths"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="Computer"
+            android:layout_marginTop="20dp"
             android:id="@+id/Computer"
             android:onClick="comp"/>
 
-
-    </RelativeLayout>
-
-
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
